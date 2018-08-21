@@ -1,0 +1,49 @@
+﻿@model Tomorowland.Models.Auto.Car
+@{
+    ViewBag.Title = "Коригування інформації про власника";
+}
+<form asp-action="edit" asp-controller="home" asp-route-id="@Model.Id">
+    <div class="form-group">
+        <label asp-for="Users" class="control-label">Власник</label>
+        <input type="text" asp-for="Users" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Berthday" class="control-label">Дата народження</label>
+        <input type="text" asp-for="Berthday" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Countrys" class="control-label">Країна</label>
+        <input type="text" asp-for="Countrys" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="City" class="control-label">Місто</label>
+        <input type="text" asp-for="City" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Street" class="control-label">Вулиця</label>
+        <input type="text" asp-for="Street" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Home" class="control-label">Будинок</label>
+        <input type="text" asp-for="Home" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Brean" class="control-label">Бренд</label>
+        <input type="text" asp-for="Brean" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Model" class="control-label">Модель</label>
+        <input type="text" asp-for="Model" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="RegisterNumber" class="control-label">Реєстраційний номер</label>
+        <input type="text" asp-for="RegisterNumber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="BodyNamber" class="control-label">Номер кузова автомобіля</label>
+        <input type="text" asp-for="BodyNamber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input class="btn btn-sm btn-primary" type="submit" value="Зберегти"  />
+    </div>
+</form>

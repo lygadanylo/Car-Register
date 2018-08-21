@@ -1,0 +1,22 @@
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.deps.json
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.runtimeconfig.json
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.runtimeconfig.dev.json
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.dll
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.pdb
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.csprojResolveAssemblyReference.cache
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.csproj.CoreCompileInputs.cache
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.AssemblyInfoInputs.cache
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.AssemblyInfo.cs
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.dll
+C:\Users\lygad\OneDrive\Документы\Visual Studio 2017\Projects\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.pdb
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.deps.json
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.runtimeconfig.json
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.runtimeconfig.dev.json
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.dll
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\bin\Debug\netcoreapp2.0\Tomorowland.pdb
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.csprojAssemblyReference.cache
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.csproj.CoreCompileInputs.cache
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.AssemblyInfoInputs.cache
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.AssemblyInfo.cs
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.dll
+C:\Users\lygad\Desktop\Tomorowland\Tomorowland\obj\Debug\netcoreapp2.0\Tomorowland.pdb

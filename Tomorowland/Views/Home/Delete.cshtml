@@ -1,0 +1,59 @@
+﻿@model Tomorowland.Models.Auto.Car
+@{
+    ViewBag.Title = "Видалення Автомобілів";
+}
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>Власник</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Users)
+        </dd>
+
+        <dt>День народження</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Berthday)
+        </dd>
+
+        <dt>Виробник</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Brean)
+        </dd>
+        <dt>Модель</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt>Реєстраційний номер</dt>
+        <dd>
+            @Html.DisplayFor(model => model.RegisterNumber)
+        </dd>
+        <dt>Номер кузова</dt>
+        <dd>
+            @Html.DisplayFor(model => model.BodyNamber)
+        </dd>
+        <dt>Країна</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Countrys)
+        </dd>
+        <dt>Місто</dt>
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt>Вулиця</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Street)
+        </dd>
+        <dt>Будинок</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Home)
+        </dd>
+    </dl>
+
+    <div>
+        <form asp-controller="Home" asp-action="Delete" method="post">
+            <div class="form-group">
+                <input type="submit" class="btn btn-sm btn-danger" value="Видалити" />
+            </div>
+        </form>
+    </div>
+</div>

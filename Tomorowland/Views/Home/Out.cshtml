@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Tomorowland.Models.Auto.Car>
+@{
+    ViewBag.Title = "Всі автомобілі";
+}
+<table class="table">
+    <tr><td><h4>Бренд</h4></td><td><h4>Модель</h4></td><td><h4>Номер Кузова</h4></td><td><h4>Реєстраційний номер</h4></td></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><h4>@item.Brean</h4></td>
+            <td><h4>@item.Model</h4></td>
+            <td><h4>@item.BodyNamber</h4></td>
+            <td><h4>@item.RegisterNumber</h4></td>
+            <td>
+                <li><a asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">Детальніше</a></li>
+                @if (User.IsInRole("admin"))
+                {
+                    <li><a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id">Редагувати</a> </li>
+                    <li><a asp-action="Delete" asp-controller="Home" asp-route-id="@item.Id">Видалити</a></li>
+                }
+            </td>
+        </tr>
+    }
+</table>
+

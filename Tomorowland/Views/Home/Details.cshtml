@@ -1,0 +1,22 @@
+﻿@model Tomorowland.Models.Auto.Car
+@{
+    ViewBag.Title = Model.Brean;
+}
+<h2>Автомобіль @Model.Brean @Model.Model </h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Власник</dt>
+        <dd>@Model.Users</dd>
+        <dt>Дата Народження</dt>
+        <dd>@Model.Berthday</dd>
+
+        <dt>Країна</dt>
+        <dd>@Model.Countrys</dd>
+        <dt>Місто</dt>
+        <dd>@Model.City</dd>
+        <dt>Вулиця</dt>
+        <dd>@Model.Street</dd>
+        <dt>Будинок</dt>
+        <dd>@Model.Home</dd>
+    </dl>
+</div>
